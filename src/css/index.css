@@ -1,0 +1,303 @@
+.W {
+  width: 1200px;
+  margin: auto;
+}
+
+.header {
+  /* width: 1200px; */
+  margin: auto;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.img1 {
+  margin-top: 25px;
+  margin-left: 40px;
+  width: 400px;
+}
+.img2 {
+  width: 1085px;
+  margin: auto;
+}
+/* -------------------------分割线-------------------- */
+/* 背景层和弹出层 */
+.topNav-search div {
+  display: inline-block;
+  position: fixed;
+  right: 5%;
+  top: 50%;
+}
+
+/* 点击的按钮 */
+.btn-blur {
+  /* cursor: pointer;
+    top: 0;
+    right: 0;
+    padding: 10px 20px;
+    background-color: #f63;
+    padding:20px;
+    border-radius: 20px; */
+}
+/* 按钮点击后的效果 */
+/* .btn-blur:active{
+    background-color: #f33;
+} */
+
+/* 弹出层 */
+.Popup-Layer {
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+/* 背景层 */
+/* .Background-Layer{
+    padding:5rem;
+    text-align: center;
+} */
+/* 背景层模糊 */
+.blur {
+  transition: 0.5s;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
+/* display隐藏 */
+.close {
+  display: none;
+}
+
+/* 弹出层内容体div */
+.login-panel {
+  margin: 0 auto;
+  top: 10%;
+  position: relative;
+  width: 800px;
+  height: 626px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.02);
+  box-shadow: 0px 4px 16px 4px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 2px 8px -2px rgba(0, 0, 0, 0.04);
+  border-radius: 12px;
+}
+/* 关闭按钮 */
+.closeBtn {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px 20px;
+  border-radius: 0 10px 0 10px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.5s;
+  z-index: 500;
+}
+.closeBtn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: rgb(255, 255, 255);
+}
+
+#cancel {
+  width: 104px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+}
+
+/* 登录 */
+.Signin a {
+  font-weight: bold;
+  color: black;
+}
+.Signin {
+  position: absolute;
+  left: 0;
+  width: 800px;
+  height: 626px;
+  float: left;
+  box-sizing: border-box;
+}
+.Signin h1 {
+  margin: auto;
+  margin-top: 32px;
+  width: 96px;
+  height: 24px;
+  font-family: PingFangSC-Medium;
+  font-size: 24px;
+  color: #333333;
+  line-height: 24px;
+  font-weight: 500;
+}
+.link-top {
+  margin-top: 18px;
+  width: 760px;
+  height: 1px;
+  background: #f0f0f0;
+}
+.Signin h2 {
+  margin: auto;
+  margin-top: 12px;
+  width: 410px;
+  height: 22px;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #999999;
+  line-height: 22px;
+  font-weight: 407;
+}
+.Signin h3 {
+  width: 432px;
+  height: 22px;
+  font-family: PingFangSC-Medium;
+  font-size: 16px;
+  color: #333333;
+  line-height: 22px;
+  font-weight: 500;
+  margin-left: 50px;
+  margin-top: 33px;
+  font-weight: bold;
+}
+
+.signin label {
+  color: red;
+}
+
+.Signin span {
+  width: 56px;
+  height: 22px;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #666666;
+  line-height: 22px;
+  font-weight: 400;
+}
+.Signin input {
+  letter-spacing: 2px;
+
+  /* margin-top: 10px;
+    margin-bottom: 20px; */
+  margin-left: 20px;
+
+  outline: none;
+  box-sizing: border-box;
+
+  width: 600px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+}
+#beizhu {
+  width: 600px;
+  height: 140px;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+}
+
+.Signin_from {
+  margin: auto;
+  width: 100%;
+  margin-top: 20px;
+}
+.ul {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 40px;
+  background-color: #000000;
+}
+.Signin_from ul li {
+  margin-bottom: 10px;
+  height: 30px;
+}
+.Signin_from ul li label {
+  display: inline-block;
+  text-align: right;
+  margin-left: 37px;
+  width: 70px;
+  height: 22px;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #666666;
+  line-height: 22px;
+  font-weight: 400;
+}
+.Signin_from ul li span {
+  width: 8px;
+  height: 22px;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #ff0000;
+  line-height: 22px;
+  font-weight: 400;
+}
+.Signin_from ul li div {
+  width: 650px;
+  height: 24px;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #999999;
+  line-height: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.Signin_from ul li table {
+  margin-top: 40px;
+}
+
+.Signin input:hover {
+  background-color: #eaeaea;
+}
+.Sintit {
+  line-height: 10px;
+  font-weight: 400;
+  float: right;
+  margin-top: 0px;
+  font-size: 14px;
+}
+.Signin-beizhu {
+  width: 600px;
+  height: 140px;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+}
+#submit {
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
+  width: 104px;
+  height: 40px;
+  background: #1992ff;
+  border-radius: 2px;
+  float: right;
+}
+#submit:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#rebg {
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  width: 350px;
+}
+
+.babel-app .bab-opt-mod {
+  width: auto;
+  margin: 0 auto;
+}
+
+.babel-app {
+  position: relative;
+  width: auto !important;
+  margin: auto;
+}

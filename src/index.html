@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ZH-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>碳中和宣传页面</title>
+		<!-- 引入css样式表 -->
+		<link rel="stylesheet" href="./css/common.css">
+		<link rel="stylesheet" href="./css/index.css">
+		<link rel="stylesheet" href="./css/style.css">
+		
+	</head>
+	<body>
+		<!-- 背景层开始 -->
+		<header class="header" style="background-image:url(img/头图背景.png)">
+			<div class="W">
+				
+				<td class="floatleft"><img class="img1" src="img/头图标题.png" /></td>
+				
+					
+				<img src ="img/homepage.png" class="img2">
+			</div>
+			
+				
+						
+					
+					
+					
+				
+			
+
+
+
+		</header>
+		
+
+
+		<section class="W">
+			<!-- <div style="margin: auto;">
+				<img src="images/2.png" >
+			</div> -->
+
+			<!-- 右侧咨询按钮 -->
+			<div class="topNav-search">
+				<div class="user-in btn-blur">
+					<img src="img/IM.png">
+					<span style="position: absolute; top:105px; left: 55px;">联系我们</span>
+				</div>
+			</div>
+
+		<!-- 背景层结束 -->
+		</section>
+
+		<!-- 弹出层开始 -->
+		<section class="Popup-Layer close">
+					<!-- 弹出层内容体 -->
+					<div class="login-panel">
+						<span class="closeBtn">X</span>
+						<div class="Signin">
+							<h1>联系我们</h1>
+							<div class="link-top"></div>
+							<h2>为方便沟通，请填写以下信息，我们将在10个工作日之内与您联系</h2>
+							<h3>请填写以下信息</h3>
+					<form
+            action="//uniplat.jd.com/v1/contact/add"
+            method="POST"
+            onsubmit="return false"
+            id="formReport"
+          	>
+            <input class="input" type="hidden" name="type" value="1" />
+            <div class="form-item">
+              <span class="form-item-label required">姓名</span>
+              <input
+                required
+                class="input"
+                type="text"
+                name="name"
+                placeholder="请输入您的姓名，2～5个字符"
+                maxlength="5"
+              />
+			  
+            </div>
+			<div class="Sintit sinegongsi">test</div>
+            <div class="form-item">
+              <span class="form-item-label required">公司</span>
+              <input
+                required
+                class="input"
+                type="text"
+                name="company"
+                placeholder="请输入公司名称，不能超过30个字符"
+                maxlength="30"
+              />
+            </div>
+            <div class="form-item">
+              <span class="form-item-label required">联系方式</span>
+              <input
+                required
+                class="input"
+                type="text"
+                name="mobile"
+                placeholder="请填写可以联系到您的手机号码"
+                maxlength="11"
+              />
+            </div>
+            <div class="form-item">
+              <span class="form-item-label">备注</span>
+              <textarea
+							style="height: 140px;"
+                class="input"
+                name="remark"
+                placeholder="请输入内容"
+                maxlength="100"
+                rows="4"
+              ></textarea>
+            </div>
+            <div class="form-item handle-btn-box">
+              <span class="form-item-label"></span>
+              <button class="btn btn-submit">提交</button>
+              <button class="btn btn-cancel">取消</button>
+            </div>
+          </form>
+				</div>
+
+					</div>
+							<!-- 弹出层结束 -->
+		</section>
+		<!-- 引入js脚本 -->
+		<script type="text/javascript" src="./js/jquery-3.3.1.js"></script>
+		<script type="text/javascript" src="./js/index.js"></script>
+	</body>
+</html>

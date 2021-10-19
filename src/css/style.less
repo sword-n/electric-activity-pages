@@ -1,0 +1,76 @@
+body {
+  .form-item {
+    padding-left: 20px;
+    background: var(--input-bg-color, white) !important;
+    margin: 20px 20px;
+    height: 40px;
+    width: 600px;
+    border-radius: 1px;
+    display: flex;
+    justify-content: center;
+    -webkit-user-select: auto !important;
+    -moz-user-select: auto !important;
+    &.handle-btn-box{
+      position: absolute;
+      bottom: 20px;
+    }
+  }
+  .form-item input,
+  .form-item textarea {
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 2px;
+    width: 90%;
+    margin-left: 5px;
+    font-size: 14px;
+    outline-style: none;
+    background: var(--input-bg-color, white);
+    text-decoration: none;
+    text-indent: 14px;
+    color: var(--input-text-color, #222);
+    border: 1px solid #e6e6e6;
+  }
+  .form-item-label {
+    width: 120px;
+    margin-right: 20px;
+    left: 5px;
+    text-align: right;
+    line-height: 40px;
+    &.required::before {
+      font-size: 14px;
+      position: relative;
+      left: -5px;
+      content: "*";
+      color: red;
+      line-height: 40px;
+    }
+  }
+  .btn{
+    width: 104px;
+    height: 40px;
+    font-size: 14px;
+    line-height : 40px;
+    border-radius: 2px;
+    text-align: center;
+    font-weight: 400;
+    font-family: PingFangSC-Regular;
+    border-radius: 2px;
+    border: 1px solid #E6E6E6;
+    cursor: pointer;
+    &:hover{
+      font-weight: 600;
+      
+    }
+    &.btn-submit{
+      background: #1992FF;
+      color: #FFFFFF;
+    }
+    &.btn-cancel{
+      background: #FFFFFF;
+      color: #333333;
+      margin-left: 20px;
+    }
+  }
+  
+}
