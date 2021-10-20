@@ -13,11 +13,10 @@
 .img1 {
   margin-top: 25px;
   margin-left: 40px;
-  width: 400px;
 }
 .img2 {
-  width: 1085px;
-  margin: auto;
+  margin-top: 80px;
+  margin-left: 40px;
 }
 /* -------------------------分割线-------------------- */
 /* 背景层和弹出层 */
@@ -91,16 +90,15 @@
   background-color: rgba(255, 255, 255, 0.5);
   padding: 15px 20px;
   border-radius: 0 10px 0 10px;
-  color: rgb(0, 0, 0);
+  color: #999;
   cursor: pointer;
   font-size: 16px;
-  font-weight: bold;
   transition: 0.5s;
   z-index: 500;
 }
 .closeBtn:hover {
   background-color: rgba(255, 255, 255, 0.2);
-  color: rgb(255, 255, 255);
+  color: #222;
 }
 
 #cancel {

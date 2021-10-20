@@ -13,27 +13,23 @@
 	</head>
 	<body>
 		<!-- 背景层开始 -->
-		<header class="header" style="background-image:url(img/头图背景.png)">
+		<header class="header" style="background-image:url(img/3.png)">
 			<div class="W">
 				
-				<td class="floatleft"><img class="img1" src="img/头图标题.png" /></td>
+				<td class="floatleft"><img class="img1" src="img/1.png" /></td>
 				
+				
+					<div class="bodyer">
+						<img class="img2" src="img/2.png">
+					</div>
 					
-				<img src ="img/homepage.png" class="img2">
+					
+				</div>
 			</div>
-			
-				
-						
-					
-					
-					
-				
-			
 
 
 
 		</header>
-		
 
 
 		<section class="W">
@@ -44,7 +40,7 @@
 			<!-- 右侧咨询按钮 -->
 			<div class="topNav-search">
 				<div class="user-in btn-blur">
-					<img src="img/IM.png">
+					<img src="img/咨询.png">
 					<span style="position: absolute; top:105px; left: 55px;">联系我们</span>
 				</div>
 			</div>
@@ -53,7 +49,7 @@
 		</section>
 
 		<!-- 弹出层开始 -->
-		<section class="Popup-Layer close">
+		<section class="Popup-Layer ">
 					<!-- 弹出层内容体 -->
 					<div class="login-panel">
 						<span class="closeBtn">X</span>
@@ -73,15 +69,15 @@
               <span class="form-item-label required">姓名</span>
               <input
                 required
+								autofocus
                 class="input"
                 type="text"
                 name="name"
-                placeholder="请输入您的姓名，2～5个字符"
-                maxlength="5"
+                placeholder="请输入姓名，支持中文、英文、数字等10个字符"
+                maxlength="10"
               />
-			  
+							<span class="error-tips"></span>
             </div>
-			<div class="Sintit sinegongsi">test</div>
             <div class="form-item">
               <span class="form-item-label required">公司</span>
               <input
@@ -92,6 +88,7 @@
                 placeholder="请输入公司名称，不能超过30个字符"
                 maxlength="30"
               />
+							<span class="error-tips"></span>
             </div>
             <div class="form-item">
               <span class="form-item-label required">联系方式</span>
@@ -103,6 +100,7 @@
                 placeholder="请填写可以联系到您的手机号码"
                 maxlength="11"
               />
+							<span class="error-tips"></span>
             </div>
             <div class="form-item">
               <span class="form-item-label">备注</span>
@@ -111,7 +109,7 @@
                 class="input"
                 name="remark"
                 placeholder="请输入内容"
-                maxlength="100"
+                maxlength="200"
                 rows="4"
               ></textarea>
             </div>

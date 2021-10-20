@@ -1,5 +1,6 @@
 body {
   .form-item {
+    position: relative;
     padding-left: 20px;
     background: var(--input-bg-color, white) !important;
     margin: 20px 20px;
@@ -13,6 +14,19 @@ body {
     &.handle-btn-box{
       position: absolute;
       bottom: 20px;
+    }
+    &.error{
+      input{
+        border: 1px solid red;
+      }
+    }
+    .error-tips{
+      position: absolute;
+      left: 160px;
+      top: 40px;
+      color: red;
+      width: auto;
+
     }
   }
   .form-item input,
@@ -46,6 +60,7 @@ body {
       line-height: 40px;
     }
   }
+  
   .btn{
     width: 104px;
     height: 40px;
